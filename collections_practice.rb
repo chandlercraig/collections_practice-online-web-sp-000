@@ -31,7 +31,8 @@ def find_a(arr)
   int=0
   while int < arr.length
     if arr[int][0] == "a"
-    int += 1
+      return arr[int]
   end
+  int += 1
  end
 end
