@@ -29,9 +29,10 @@ end
 
 def find_a(arr)
   int=0
+  new_arr = []
   while int < arr.length
     if arr[int][0] == "a"
-      return arr[int]
+     new_arr << arr[int]
   end
   int += 1
  end
