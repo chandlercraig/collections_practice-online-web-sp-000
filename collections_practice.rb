@@ -38,3 +38,7 @@ def find_a(arr)
  end
  return new_arr
 end
+
+def sum_array(arr)
+  array.map(&:to_i).reduce(0, :+)
+end
