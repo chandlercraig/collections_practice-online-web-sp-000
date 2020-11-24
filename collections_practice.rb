@@ -34,6 +34,7 @@ def find_a(arr)
     if arr[int][0] == "a"
      new_arr << arr[int]
   end
-  int += 1
+    int += 1
  end
+ return new_arr
 end
