@@ -26,3 +26,12 @@ def kesha_maker(arr)
   end
   return arr
 end
+
+def find_a(arr)
+  int=0
+  while int < arr.length
+    if arr[int][0] == "a"
+    int += 1
+  end
+ end
+end
