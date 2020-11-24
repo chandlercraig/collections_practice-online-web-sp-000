@@ -44,5 +44,7 @@ def sum_array(arr)
 end
 
 def add_s(arr)
-  
+  arr.each_with_index do |bodypart, ind|
+    bodypart[bodypart.length] = "s" unless ind == 1
+  end
 end
