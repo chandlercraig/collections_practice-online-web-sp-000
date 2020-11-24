@@ -40,5 +40,5 @@ def find_a(arr)
 end
 
 def sum_array(arr)
-  array.map(&:to_i).reduce(0, :+)
+  arr.map(&:to_i).reduce(0, :+)
 end
