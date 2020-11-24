@@ -21,7 +21,7 @@ end
 def kesha_maker(arr)
   int=0
   while int < arr.length
-    [int][2] = "$"
+    arr[int][2] = "$"
     int += 1
   end
   return arr
