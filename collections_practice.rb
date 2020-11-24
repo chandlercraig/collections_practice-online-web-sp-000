@@ -24,4 +24,5 @@ def kesha_maker(arr)
     [int][2] = "$"
     int += 1
   end
+  return arr
 end
