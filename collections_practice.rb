@@ -42,3 +42,7 @@ end
 def sum_array(arr)
   arr.map(&:to_i).reduce(0, :+)
 end
+
+def add_s(arr)
+  
+end
