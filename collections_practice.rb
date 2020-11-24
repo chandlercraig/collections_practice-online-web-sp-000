@@ -19,5 +19,8 @@ def reverse_array(arr)
 end
 
 def kesha_maker(arr)
-  arr[0][2] = "$"
+  int=0
+  while int < arr.length
+    [int][2] = "$"
+    int += 1
 end
